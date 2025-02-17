@@ -1,0 +1,12 @@
+[package]
+name = "bitcoin-analytics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.11.6"
+log = "0.4.25"
+rocket = { version = "0.5.1", features = ["json"] }
+serde = "1.0.217"
+sqlx = { version = "0.8.3", features = ["runtime-tokio-rustls", "sqlite"] }
+tokio = "1.43.0"

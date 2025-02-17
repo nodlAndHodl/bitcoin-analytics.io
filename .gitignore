@@ -1,0 +1,5 @@
+/target
+.env
+bitcoin_analytics.db
+bitcoin_analytics.db-wal
+bitcoin_analytics.db-shm
