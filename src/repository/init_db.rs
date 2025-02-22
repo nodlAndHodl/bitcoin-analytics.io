@@ -1,4 +1,4 @@
-use sqlx::{migrate::{MigrateDatabase, Migrator}, Executor, Pool, Sqlite,SqlitePool};
+use sqlx::{migrate::{MigrateDatabase, Migrator}, Sqlite,SqlitePool};
 use std::{error::Error, path::Path};
 
 pub async fn init_db(url: &str) -> Result<(), Box<dyn Error>> {
