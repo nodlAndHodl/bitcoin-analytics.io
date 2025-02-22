@@ -1,3 +1,5 @@
+PRAGMA foreign_keys = ON;
+
 CREATE TABLE IF NOT EXISTS address_transactions (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     address_id VARCHAR(191) NOT NULL,
