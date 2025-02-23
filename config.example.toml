@@ -1,0 +1,9 @@
+[database]
+url = "qlite://bitcoin_analytics.db"
+
+
+[bitcoin_node]
+url = "nodebox.local"
+port = 8332
+rpc_user = "satoshi"
+rpc_password = "nakamoto"
